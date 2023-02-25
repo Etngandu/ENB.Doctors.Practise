@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ENB.Doctors.Practise.MVC.props" />
+</Project>

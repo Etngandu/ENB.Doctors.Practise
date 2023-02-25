@@ -1,0 +1,175 @@
+﻿@page "/PatientCreate"
+
+@using ENB.Doctors.Practise.Blazor.Models
+@using ENB.Doctors.Practise.Blazor.HttpRepository
+@using ENB.Doctors.Practise.Entities
+@using System.ComponentModel.DataAnnotations;
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+@inject NotificationService notificationService
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Create New Customer</strong></h2>
+</div>
+<EditForm Model="createAndEditPatient">
+<div class="row">
+    <div class="col-md-12">        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Patient_first_name" class="control-label">Patient_first_name</label>
+                        </div>
+                        <input form="Patient_first_name" class="form-control" @bind="createAndEditPatient.Patient_first_name" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Patient_first_name)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Patient_last_name" class="control-label">Patient_last_name</label>
+                        </div>
+                        <input form="Patient_last_name" class="form-control" @bind="createAndEditPatient.Patient_last_name" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Patient_last_name)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Patient_mailAddress" class="control-label">Patient_mailAddress</label>
+                        </div>
+                        <input form="Patient_mailAddress" class="form-control" @bind="createAndEditPatient.Patient_mailAddress" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Patient_mailAddress)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Height" class="control-label">Height</label>
+                        </div>
+                        <input form="Height" class="form-control" @bind="createAndEditPatient.Height" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Height)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Hospital_Number" class="control-label">Hospital_Number</label>
+                        </div>
+                        <input form="Hospital_Number" class="form-control" @bind="createAndEditPatient.Hospital_Number" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Hospital_Number)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="nhs_number" class="control-label">nhs_number</label>
+                        </div>
+                        <input form="nhs_number" class="form-control" @bind="createAndEditPatient.nhs_number" />
+                        <ValidationMessage For="@(() => createAndEditPatient.nhs_number)" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Gender" class="control-label">Gender</label>
+                        </div>                       
+                            <InputSelect id="" @bind-Value="createAndEditPatient.Gender" class="form-control">
+                            @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                            {
+                                <option value="@gender">@gender</option>
+                            }
+                        </InputSelect>
+                        <ValidationMessage For="@(() => createAndEditPatient.Gender)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Date_Of_Birth" class="control-label">Date_Of_Birth</label>
+                        </div>
+                        <input form="Date_Of_Birth" class="form-control" @bind="createAndEditPatient.Date_Of_Birth" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Date_Of_Birth)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Weight" class="control-label">Weight</label>
+                        </div>
+                        <input form="Weight" class="form-control" @bind="createAndEditPatient.Weight" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Weight)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Next_of_kin" class="control-label">Next of kin</label>
+                        </div>
+                        <input form="Next_of_kin" class="form-control" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Next_of_kin)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Cell_Mobile_phone" class="control-label">Cell Mobile phone</label>
+                        </div>
+                        <input form="Cell_Mobile_phone" class="form-control" @bind="createAndEditPatient.Cell_Mobile_phone" />
+                        <ValidationMessage For="@(() => createAndEditPatient.Cell_Mobile_phone)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label for="Other_patient_details" class="control-label">Other patient details</label>
+                        </div>
+                        <textarea for="Other_patient_details" type="text" class="form-control" rows="5" @bind="createAndEditPatient.Other_patient_details"></textarea>
+                        <ValidationMessage For="@(() => createAndEditPatient.Other_patient_details)" />
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Create" @onclick="@Create" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Cancel" class="btn btn-secondary" @onclick="@Cancel" />
+                    </div>
+                </div>
+            </div>       
+   </div>
+</div>
+</EditForm>
+@code {
+
+
+    [Inject]
+    public IPatientHttpRepository? PatientRepo { get; set; }
+
+    public CreateAndEditPatient createAndEditPatient { get; set; } = new CreateAndEditPatient();
+
+
+    protected async Task Create()
+    {
+
+        await PatientRepo!.AddPatient(createAndEditPatient);
+        notificationService.Notify(NotificationSeverity.Info, summary: "Patient Added succefully",
+           detail: "", duration: 4000);
+        NavigationManager.NavigateTo("PatientList");
+
+    }
+
+
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("PatientList");
+    }
+}

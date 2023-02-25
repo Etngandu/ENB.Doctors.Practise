@@ -1,0 +1,119 @@
+﻿@model ENB.Doctors.Practise.MVC.Models.CreateAndEditStaff
+@using ENB.Doctors.Practise.Entities
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Edit Staff member</strong></h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="Staff_first_name" class="control-label"></label>
+                        </div>
+                        <input asp-for="Staff_first_name" class="form-control" />
+                        <span asp-validation-for="Staff_first_name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="Staff_last_name" class="control-label"></label>
+                        </div>
+                        <input asp-for="Staff_last_name" class="form-control" />
+                        <span asp-validation-for="Staff_last_name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Staff_Category_code" class="control-label"></label>
+                        </div>
+                        <select asp-for="Staff_Category_code" class="form-control" asp-items="Html.GetEnumSelectList<Staff_Category_Code>()"></select>
+                        <span asp-validation-for="Staff_Category_code" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Gender" class="control-label"></label>
+                        </div>
+                        <select asp-for="Gender" class="form-control" asp-items="Html.GetEnumSelectList<Gender>()"></select>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Staff_job_title" class="control-label"></label>
+                        </div>
+                        <select asp-for="Staff_job_title" class="form-control" asp-items="Html.GetEnumSelectList<Staff_JobTitle>()"></select>
+                        <span asp-validation-for="Staff_job_title" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="EmailAddressText" class="control-label"></label>
+                        </div>
+                        <input asp-for="EmailAddressText" class="form-control" />
+                        <span asp-validation-for="EmailAddressText" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="PhoneNumber" class="control-label"></label>
+                        </div>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Staff_birth_date" class="control-label"></label>
+                        </div>
+                        <input asp-for="Staff_birth_date" class="form-control" />
+                        <span asp-validation-for="Staff_birth_date" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Other_staff_details" class="control-label"></label>
+                        </div>
+                        <textarea asp-for="Other_staff_details" type="text" class="form-control" rows="5" autofocus></textarea>
+                        <span asp-validation-for="Other_staff_details" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-action="Index" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

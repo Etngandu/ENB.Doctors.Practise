@@ -1,0 +1,38 @@
+﻿@using ENB.Doctors.Practise.Entities;
+@model ENB.Doctors.Practise.MVC.Models.DisplayPatient;
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<div class="alert alert-danger" role="alert">
+    <h2><strong>Do you really want to remove: @ViewBag.Message ?</strong></h2>
+</div>
+
+<div id="view-all">
+    @await Html.PartialAsync("_Details", Model)
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+            </div>
+        </div>
+    </div>
+}

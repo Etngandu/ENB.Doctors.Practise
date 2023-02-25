@@ -1,0 +1,63 @@
+﻿@page "/PatientList"
+@using ENB.Doctors.Practise.Blazor.Models
+@using ENB.Doctors.Practise.Blazor.HttpRepository
+@inject NavigationManager NavigationManager
+
+
+<div class="alert alert-info" role="alert">
+    <h2><strong>Patient Dashboard <i class="fa fa-person-arrow-down-to-line"></i></strong></h2>
+</div>
+
+<a href="/PatientCreate" class="btn btn-info" style="margin-bottom:5px"> Create New Patient</a>
+
+
+<div class="d-lg-table">
+<QuickGrid Items="@itemsQueryable" >
+   
+    <PropertyColumn Property="@(p => p.Id)" Sortable="true" />
+    <PropertyColumn Property="@(p => p.FullName)" Sortable="true" />            
+    <PropertyColumn Property="@(p => p.Date_Of_Birth)" Format="yyyy-MM-dd" Sortable="true" />
+    <PropertyColumn Property="@(p => p.Cell_Mobile_phone)" Sortable="true" />
+    <PropertyColumn Property="@(p => p.Patient_mailAddress)" Sortable="true" />
+   
+        <TemplateColumn Title="Actions" Context="patient">
+            <button @onclick="@(() =>  Edit(patient.Id))" class="btn-info"><i class="fas fa-pencil"></i> Edit</button>
+            <button @onclick="@(() =>  Delete(patient.Id))" class="btn-danger" ><i class="fa-solid fa-trash-can"></i> Delete</button>
+            <button @onclick="@(() =>  Delete(patient.Id))" class="btn-info"><i class="fa-solid fa-address-card"></i> Address</button>
+             <button @onclick="@(() => Delete(patient.Id))" class="btn-info" ><i class="fa-solid fa-user-clock"></i> App.</button>
+            <button @onclick="@(() =>  Delete(patient.Id))" class="btn-info"><i class="fa-solid fa-file-prescription"></i> Record</button>
+        </TemplateColumn>
+</QuickGrid>
+</div>
+@code {
+
+    [Parameter]    
+    public DisplayPatient patient { get; set; }
+
+    public IQueryable<DisplayPatient>? itemsQueryable;
+
+    [Inject]
+    public IPatientHttpRepository? PatientRepo { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        var items = await PatientRepo!.GetPatients();
+
+        itemsQueryable = items.AsQueryable();
+        //just for testing
+        //foreach (var patient in ListPatient)
+        //{
+        //   // Console.WriteLine(patient.);
+        //}
+    }
+
+    void Edit(int Id)
+    {
+        NavigationManager.NavigateTo($"PatientEdit/{Id}");
+    }
+
+
+    void Delete(int Id)
+    {
+        NavigationManager.NavigateTo($"PatientDelete/{Id}");
+    }
+}

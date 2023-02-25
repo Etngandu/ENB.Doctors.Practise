@@ -1,0 +1,15 @@
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\bin\Debug\net6.0\ENB.Doctors.Practise.Entities.deps.json
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\bin\Debug\net6.0\ENB.Doctors.Practise.Entities.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\bin\Debug\net6.0\ENB.Doctors.Practise.Entities.pdb
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.pdb
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.csproj.AssemblyReference.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.AssemblyInfoInputs.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.AssemblyInfo.cs
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.csproj.CoreCompileInputs.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.csproj.CopyComplete
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\refint\ENB.Doctors.Practise.Entities.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ENB.Doctors.Practise.Entities.pdb
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Entities\obj\Debug\net6.0\ref\ENB.Doctors.Practise.Entities.dll

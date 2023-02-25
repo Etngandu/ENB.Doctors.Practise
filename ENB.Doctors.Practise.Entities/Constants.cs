@@ -1,0 +1,7 @@
+﻿namespace ENB.Doctors.Practise.Entities
+{
+  internal class Constants
+  {
+    internal const int MaxAgePerson = 130; 
+  }
+}

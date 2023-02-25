@@ -1,0 +1,273 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\WahAZglV.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ENB.Doctors.Practise.Blazor.styles.css",
+      "PackagePath": "staticwebassets\\ENB.Doctors.Practise.Blazor.styles.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\Images\\doctor2.jpg",
+      "PackagePath": "staticwebassets\\Images\\doctor2.jpg"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ENB.Doctors.Practise.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ENB.Doctors.Practise.Blazor.props",
+      "PackagePath": "build\\ENB.Doctors.Practise.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ENB.Doctors.Practise.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\ENB.Doctors.Practise.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ENB.Doctors.Practise.Blazor.props",
+      "PackagePath": "buildTransitive\\ENB.Doctors.Practise.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

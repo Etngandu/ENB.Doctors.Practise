@@ -1,0 +1,55 @@
+﻿@model ENB.Doctors.Practise.MVC.Models.DisplayPatientRecord
+
+
+<div class="alert alert-dismissible alert-success">
+    <h2>Details Patient Record: @ViewBag.Message</h2>
+</div>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2 card-header">
+            @Html.DisplayNameFor(model => model.Component_Code)
+        </dt>
+        <dd class="col-sm-10 card-header">
+            @Html.DisplayFor(model => model.Component_Code)
+        </dd>       
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.NameStaff)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.NameStaff)
+        </dd>        
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.Other_Details)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.Other_Details)
+        </dd>
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.DateModified)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.DateModified)
+        </dd>
+    </dl>
+
+    <div class="row" style="margin-top:15px">
+        <div class="col-md-6">
+            <div class="form-group">                
+                <a asp-action="RecordperPatientEdit" asp-route-PatientId="@ViewBag.Idpatient" asp-route-Id="@ViewBag.Id" class="btn btn-primary">Edit</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <a asp-action="RecordperpatientList" asp-route-PatientId="@ViewBag.Idpatient" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

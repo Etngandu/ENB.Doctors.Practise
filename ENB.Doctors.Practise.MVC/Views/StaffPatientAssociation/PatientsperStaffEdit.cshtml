@@ -1,0 +1,75 @@
+﻿@model ENB.Doctors.Practise.MVC.Models.CreateAndEditStaff_Patient_Association
+
+@{
+    ViewData["Title"] = "PatientsperStaffEdit";
+}
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Edit Patient Associated to staff</strong></h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="PatientsperStaffEdit" asp-route-StaffId="@ViewBag.Idstaff" asp-route-Id="@ViewBag.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="Patient" class="control-label"></label>
+                        </div>
+                        <select id="drpEmpList" class="form-control" asp-for="PatientId" asp-items="@(new SelectList(Model.ListPatient, "Value", "Text"))">
+                            <option value="">--Select--</option>
+                        </select>
+                        <span asp-validation-for="PatientId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="Association_Start_Date" class="control-label"></label>
+                        </div>
+                        <input asp-for="Association_Start_Date" class="form-control" />
+                        <span asp-validation-for="Association_Start_Date" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label asp-for="Association_End_Date" class="control-label"></label>
+                        </div>
+                        <input asp-for="Association_End_Date" class="form-control" />
+                        <span asp-validation-for="Association_End_Date" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                            <label asp-for="Other_Details" class="control-label"></label>
+                        </div>
+                        <textarea asp-for="Other_Details" type="text" class="form-control" rows="5" autofocus></textarea>
+                        <span asp-validation-for="Other_Details" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-action="PatientsperStaffList" asp-route-StaffId="@ViewBag.Idstaff" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

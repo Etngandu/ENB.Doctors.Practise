@@ -1,0 +1,81 @@
+﻿@model ENB.Doctors.Practise.MVC.Models.EditAddress
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Edit Address: @ViewBag.Message <i class="fas fa-address-card"></i></strong></h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit" asp-route-PatientId="@ViewBag.PatientId" asp-route-StaffId="@ViewBag.StaffId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                        <label asp-for="Number_street" class="control-label"></label>
+                        </div>
+                        <input asp-for="Number_street" class="form-control" />
+                        <span asp-validation-for="Number_street" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                        <label asp-for="City" class="control-label"></label>
+                        </div>
+                        <input asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                        <label asp-for="Zipcode" class="control-label"></label>
+                        </div>
+                        <input asp-for="Zipcode" class="form-control" />
+                        <span asp-validation-for="Zipcode" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                        <label asp-for="State_province_county" class="control-label"></label>
+                        </div>
+                        <input asp-for="State_province_county" class="form-control" />
+                        <span asp-validation-for="State_province_county" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0px 10px 0px">
+                        <label asp-for="Country" class="control-label"></label>
+                        </div>
+                        <input asp-for="Country" class="form-control" />
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-controller="Addresses" asp-action="Redirect" asp-route-PatientId="@ViewBag.PatientId" asp-route-StaffId="@ViewBag.StaffId" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

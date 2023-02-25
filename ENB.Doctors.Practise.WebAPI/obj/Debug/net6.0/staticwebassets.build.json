@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QZJrDq1MMyMHxUHCceS/xYT+gHluKQxyy5R42ke30/A=",
+  "Source": "ENB.Doctors.Practise.WebAPI",
+  "BasePath": "_content/ENB.Doctors.Practise.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

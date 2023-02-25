@@ -1,0 +1,105 @@
+﻿@model ENB.Doctors.Practise.MVC.Models.CreateAndEditAppointment
+@using ENB.Doctors.Practise.Entities;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Create New Appointment</strong></h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="PatientId" class="control-label"></label>
+                        </div>
+                         <select id="drpEmpList" class="form-control" asp-for="PatientId" asp-items="@(new SelectList(Model.ListPatient, "Value", "Text"))">
+                            <option value="">--Select--</option>
+                        </select>
+                        <span asp-validation-for="PatientId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label asp-for="StaffId" class="control-label"></label>
+                        </div>
+                        <select id="drpEmpList" class="form-control" asp-for="StaffId" asp-items="@(new SelectList(Model.ListStaff, "Value", "Text"))">
+                            <option value="">--Select--</option>
+                        </select>
+                        <span asp-validation-for="StaffId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="EventStatus" class="control-label"></label>
+                        </div>
+                        <select asp-for="EventStatus" class="form-control" asp-items="Html.GetEnumSelectList<AppointmentStatus>()"></select>
+                        <span asp-validation-for="EventStatus" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="Start" class="control-label"></label>
+                        </div>
+                        <input asp-for="Start" class="form-control" />
+                        <span asp-validation-for="Start" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin-top:10px">
+                            <label asp-for="End" class="control-label"></label>
+                        </div>
+                        <input asp-for="End" class="form-control" />
+                        <span asp-validation-for="End" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="AllDay" /> @Html.DisplayNameFor(model => model.AllDay)
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Other_details" class="control-label"></label>
+                        <input asp-for="Other_details" class="form-control" />
+                        <span asp-validation-for="Other_details" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-action="Index" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,14 @@
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.deps.json
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.runtimeconfig.json
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\bin\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.pdb
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.csproj.AssemblyReference.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.AssemblyInfoInputs.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.AssemblyInfo.cs
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\refint\ENB.Doctors.Practise.Infrastructure.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.pdb
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ENB.Doctors.Practise.Infrastructure.genruntimeconfig.cache
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Infrastructure\obj\Debug\net6.0\ref\ENB.Doctors.Practise.Infrastructure.dll

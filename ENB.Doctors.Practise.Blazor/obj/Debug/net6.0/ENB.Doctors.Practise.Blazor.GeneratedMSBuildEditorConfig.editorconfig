@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = ENB.Doctors.Practise.Blazor
+build_property.RootNamespace = ENB.Doctors.Practise.Blazor
+build_property.ProjectDir = C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Patient/PatientCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxQYXRpZW50Q3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Patient/PatientDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxQYXRpZW50RGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Patient/PatientDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxQYXRpZW50RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Patient/PatientEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxQYXRpZW50RWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Patient/PatientList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxQYXRpZW50TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Pages/Staff/StaffList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcU3RhZmZMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xgb4fgmfxz
+
+[C:/Devsource/ENB.Doctors.Practise/ENB.Doctors.Practise.Blazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kikb8mwe9s

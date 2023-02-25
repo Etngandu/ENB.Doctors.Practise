@@ -1,0 +1,95 @@
+﻿<div class="alert alert-primary" role="alert">
+    <h2><strong>List Patients => Staff : @ViewBag.Message <i class="fa-solid fa-wheat-awn"></i></strong></h2>
+</div>
+
+<a asp-action="PatientsperStaffCreate" id="addCustomer" asp-controller="StaffPatientAssociation" asp-route-StaffId="@ViewBag.Idstaff" class="btn btn-success text-white" style="margin-bottom:10px"><i class="fa-solid fa-hospital-user"></i> New Patient</a>
+<table id="PatientsStafftable" class="table table-striped table-bordered" width="100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Patient Name</th>
+            <th>Association_Start_Date</th>
+            <th>Association_End_Date</th>
+            <th>Other details</th>
+            <th> </th>
+        </tr>
+    </thead>
+</table>
+
+<link href="~/lib/datatable/datatables-1.12.1/css/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+@section scripts{
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="~/lib/datatable/datatables-1.12.1/js/jquery.datatables.min.js"></script>
+        <script src="~/lib/datatable/datatables-1.12.1/js/datatables.bootstrap5.min.js"></script>
+        <script>
+            var Popup, datatable, IdStaff = parseInt('@ViewBag.Idstaff')
+            $(document).ready(function () {
+            datatable = $("#PatientsStafftable").DataTable({
+                    "ajax": {
+                    "url": "/StaffPatientAssociation/GetPatientsperStaffList/?StaffId=" + IdStaff + "",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+
+                        { "data": "id" },
+                        {
+                            "data": "namePatient",
+                            "width": "250px",
+                            "render": function (data, type, row, meta) {
+                                return '<b><a href="/StaffPatientAssociation/PatientsperStaffDetails/?Id=' + row.id + "&StaffId=" + IdStaff + '" > ' + data + '</b></a >';
+                            }
+                        },
+                        {
+                            "data": "association_Start_Date",
+                            "render": dateFormatter
+                        },
+                         {
+                            "data": "association_End_Date",
+                            "render": dateFormatter
+                        },
+                        { "data": "other_Details" },
+                        {
+                            "data": "id", "render": function (data) {
+                            return "<a class= 'btn btn-primary btn-sm text-white' onclick=location.href='@Url.Action("PatientsperStaffEdit","StaffPatientAssociation")?Id=" + data + "&StaffId=" + IdStaff + "'><i class='fas fa-pencil'></i><b> Edit</b></a>" + "\r\n" +
+                                    "<a class= 'btn btn-danger btn-sm text-white' style = 'margin-left:5px' onclick =location.href='@Url.Action("PatientsperStaffDelete","StaffPatientAssociation")?Id=" + data + "&StaffId=" + IdStaff + "' > <i class='fa-solid fa-trash-can' > </i><b> Delete</b > </a> ";
+
+                            },
+                            "orderable": false,
+                            "searchable": false,
+                            "width": "150px"
+                        }
+
+                    ],
+                    "language": {
+
+                        "emptyTable": "No data Found, Please Click On <b>Add New</b> Button"
+                    }
+
+                });
+
+            });
+
+
+
+
+
+
+
+            function dateFormatter(data) {
+                var dateAsString = data;
+
+                var yearNumber = dateAsString.substring(0, 4);
+                var monthNumber = dateAsString.substring(5, 7);
+                var dayNumber = dateAsString.substring(8, 10);
+                var dat = dayNumber + "/" + monthNumber + "/" + yearNumber;
+                return dat;
+            }
+
+
+
+        </script>
+    }
+
+

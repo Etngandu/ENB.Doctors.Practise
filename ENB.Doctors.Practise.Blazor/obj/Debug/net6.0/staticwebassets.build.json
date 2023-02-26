@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GBf6mvBL0l2gjDoz4Vlvw1/k6tQNphR43f3vzcxoITE=",
+  "Hash": "Kiu0zUuXH5xGOvnckA8cJ6C5B5wEFGipJ0v3ykNcOjU=",
   "Source": "ENB.Doctors.Practise.Blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.11\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.FluentValidation.dll",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.FluentValidation.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\blazored.fluentvalidation\\2.1.0\\lib\\net6.0\\Blazored.FluentValidation.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.14.fl7frx6n4q.js",
@@ -354,7 +371,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -371,7 +388,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -388,7 +405,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.QuickGrid.dll",
@@ -422,7 +439,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -507,7 +524,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.12\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -1034,7 +1051,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.jsinterop\\6.0.11\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.jsinterop\\6.0.12\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -4063,6 +4080,23 @@
       "OriginalItemSpec": "C:\\Users\\User1\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\+a14m+wM.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\+AcNVtZP.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -4709,6 +4743,23 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\aJHT3pd7.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.FluentValidation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.FluentValidation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.FluentValidation.dll"
+    },
+    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\ajl54ZYE.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -4979,23 +5030,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Numerics.dll"
-    },
-    {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\CESw7YCa.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\cIFM7HpW.gz",
@@ -5287,23 +5321,6 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
     },
     {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\etDXoG+4.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\EUjhwD02.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -5438,6 +5455,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll"
+    },
+    {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\FM5kqDG6.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\fNfJR5VL.gz",
@@ -5710,23 +5744,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\hC68HDRM.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\hd1zx4Hk.gz",
@@ -6069,23 +6086,6 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Extensions.dll"
     },
     {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\K+tW0jVD.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\k0RzDRY2.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -6254,6 +6254,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\lDB7uKBo.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\LhacPNGj.gz",
@@ -6630,23 +6647,6 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
     },
     {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\p7dfqwJo.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\p9J4qcv7.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -7019,6 +7019,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll"
+    },
+    {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\s+G1DNER.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\sCragDi2.gz",
@@ -7463,6 +7480,23 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.dll"
     },
     {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\VkachAgD.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\vo6iQorR.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -7752,6 +7786,23 @@
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
+      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\XLwF9aZp.gz",
+      "SourceId": "ENB.Doctors.Practise.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\xQyksLH8.gz",
       "SourceId": "ENB.Doctors.Practise.Blazor",
       "SourceType": "Computed",
@@ -7784,23 +7835,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.dll"
-    },
-    {
-      "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\xuwmMwxC.gz",
-      "SourceId": "ENB.Doctors.Practise.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Devsource\\ENB.Doctors.Practise\\ENB.Doctors.Practise.Blazor\\obj\\Debug\\net6.0\\build-gz\\y0AHkIXZ.gz",

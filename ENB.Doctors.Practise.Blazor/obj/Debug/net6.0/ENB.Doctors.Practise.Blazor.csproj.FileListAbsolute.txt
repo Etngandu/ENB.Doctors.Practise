@@ -710,15 +710,10 @@ C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\E
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\Qr5WSu38.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\XfTIRWCU.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\bCKGFDve.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\p7dfqwJo.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\hC68HDRM.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\xuwmMwxC.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\K+tW0jVD.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\E39VgR+L.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\fNfJR5VL.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\jKF6d5x6.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\uLriJI32.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\etDXoG+4.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\MQyzJ1mM.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\FPvpCO9I.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\Qm01+dS9.gz
@@ -748,7 +743,6 @@ C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\b
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\vHvSOxYP.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\g22xJmOn.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\ElX2RQCT.gz
-C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\CESw7YCa.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\yUjEnNad.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\jOQxAn0h.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\tPcrrog1.gz
@@ -971,3 +965,13 @@ C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\w
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.QuickGrid.dll.gz
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\uJohMoBT.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\wwwroot\_framework\Blazored.FluentValidation.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\wwwroot\_framework\Blazored.FluentValidation.dll.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\bin\Debug\net6.0\Blazored.FluentValidation.dll
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\aJHT3pd7.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\+a14m+wM.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\lDB7uKBo.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\XLwF9aZp.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\VkachAgD.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\s+G1DNER.gz
+C:\Devsource\ENB.Doctors.Practise\ENB.Doctors.Practise.Blazor\obj\Debug\net6.0\build-gz\FM5kqDG6.gz

@@ -7,19 +7,20 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.FluentValidation.dll": "sha256-9ph4qOuJJI3IP3WrFld2nQ\/yLkrpmLjFJgQI+BUTHJ4=",
       "FluentValidation.dll": "sha256-oMsh6Tz3zFJE77i1HTEd7AgdcnY5o+MlUiq81K+Ghs8=",
       "FluentValidation.DependencyInjectionExtensions.dll": "sha256-2aJQ8yqr9nXwbUAUEYowVCKL0pY5SniMhykF4TaC+WM=",
       "StatusGeneric.dll": "sha256-wOk4veZN5fXt6UiDinKV8Kruln1Hev0\/xjcaDmeIMf8=",
-      "Microsoft.AspNetCore.Authorization.dll": "sha256-XBf6Fkkj3RbYzEYJK50myG8AEUvn0E0yo79DWqFFF6s=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-UkZxt\/OLN+4go5yeFeBuXEx05BEm9nw5pNpR7smgtq4=",
-      "Microsoft.AspNetCore.Components.Forms.dll": "sha256-Tb2pZ0EzhqIJ5HZiejbBy3MBrA+zY+77w58Gae1c0pQ=",
+      "Microsoft.AspNetCore.Authorization.dll": "sha256-QoBf8ZUgaWJCUGT3n4SViOqz82zpsFTQBgBR38X0SQM=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-3t65GOJ1de1VQDnrDvkwNxyXORtXOrSScKJat53tcj0=",
+      "Microsoft.AspNetCore.Components.Forms.dll": "sha256-sfS5IbIUmHlbq+IYA0kCaqZP3A4mW9Db27+02FHezQg=",
       "Microsoft.AspNetCore.Components.QuickGrid.dll": "sha256-PW\/wHFaTp8vYiuguHaQ3AwRZufEAL3poOUlA2LvA0BA=",
-      "Microsoft.AspNetCore.Components.Web.dll": "sha256-SuNk6pu0VYvOrLD8o4+xeB+eHRkkv0mHCl4LKVRg8u8=",
+      "Microsoft.AspNetCore.Components.Web.dll": "sha256-S1xltauXSvwtrfRfttJgmFlN0Vity8xM7gZyCf1Be+s=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-iFHifhevHZX+xH2Yvy\/NOtvEAaDO3UmaXwyup\/g32Ak=",
       "Microsoft.AspNetCore.Cryptography.Internal.dll": "sha256-1fs4brWHVcF8dsEjldzmWLuxbSYOL0faQv63BpbUUcQ=",
       "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": "sha256-OKscrsO45Z+QTk6zKnoyq8zKnVvoh0owYlHZSnT5IQQ=",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": "sha256-hfb2XpqC2DFli9draguuIVszZwOmARzHaxknrebloBk=",
-      "Microsoft.AspNetCore.Metadata.dll": "sha256-3TE7F3H4g8o6S+SpkGTHlSmBCMvOi8GcBNHZIGLPg8s=",
+      "Microsoft.AspNetCore.Metadata.dll": "sha256-K3FoLKXSEzoky5knG0YNJtSbJeUnWnZojUlEIM7jV8E=",
       "Microsoft.Data.SqlClient.dll": "sha256-q4aFqOhr12NvawbvhHceJHeT\/cyTd3CA3BCag+EthU8=",
       "Microsoft.EntityFrameworkCore.dll": "sha256-qNfMoPRZ4v6hK94J\/HYGOYwgmoFf6v0FqR0dx6zNEKQ=",
       "Microsoft.EntityFrameworkCore.Abstractions.dll": "sha256-RLk+LWW22ZZ0Mp88zSIB5K0gFY6oUubQfjpuZJ0Gyso=",
@@ -49,7 +50,7 @@
       "Microsoft.IdentityModel.Protocols.dll": "sha256-L7NSD\/rW2gbOFmajIHCFnSOS2p1lNagTtleG83iiUa0=",
       "Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": "sha256-3M9miS85Q1g2p\/MrXFW1egymUTtrnJ94R4UHkcldpsA=",
       "Microsoft.IdentityModel.Tokens.dll": "sha256-l8Q0l\/8slBAOheR+UlZIGag2yey6yRvOrZhyUqTwnpI=",
-      "Microsoft.JSInterop.dll": "sha256-8rJkvKxV\/xke9flVSby3wXsdofRAr9AzsMeVjUmVAMo=",
+      "Microsoft.JSInterop.dll": "sha256-f+J4A5N3h7YHoA6RK6isPqRQBhMgDi4wEGUnCC32ag0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-9Kkxpe\/nXXP3FmowCjDeA4p54SbRWz0G1d0lfgRni0c=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-56MWX7GCuiW+O0EPzkUo0jj6T\/mhpVB6x+UFQtaS2qE=",
       "Radzen.Blazor.dll": "sha256-TlfChpNjAdRUVG0RHswJeblqNzJeBBFsihEsh0pmlEg=",
@@ -231,7 +232,7 @@
       "ENB.Doctors.Practise.EF.dll": "sha256-fE5xw+Syu6vunKpKTAD4ghfzsSLqe8tcv2RrehEeQiA=",
       "ENB.Doctors.Practise.Entities.dll": "sha256-efF3KsB1wnlWVLZsitwR7xAr1cqcmoTnbA6IV\/bdwzI=",
       "ENB.Doctors.Practise.Infrastructure.dll": "sha256-qtrY4VEtuNF0Eia60Uxj5xdzFIhK49quVQ1Ud\/\/2hzU=",
-      "ENB.Doctors.Practise.Blazor.dll": "sha256-9oPZUYOB6VbVugCrd8F6gXpnefGVeqbKda0hERYZt+4="
+      "ENB.Doctors.Practise.Blazor.dll": "sha256-GXGP4POmSDn685c4Rg+VQSIAvQ0XJtuBDzzmA1r02Z8="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -240,7 +241,7 @@
       "ENB.Doctors.Practise.EF.pdb": "sha256-cQQTCQeC+k+jvruYAewLRtr+CP0bzPkv+b\/jwxAqLgU=",
       "ENB.Doctors.Practise.Entities.pdb": "sha256-mVizLsbfEyV\/KlW\/BYp\/YrWoJki41qSW+i+9nT+Qn40=",
       "ENB.Doctors.Practise.Infrastructure.pdb": "sha256-cqhMsg9JmKR8n8\/sz5DwU5IUbi\/8iKOi7OSSuyrMZ8A=",
-      "ENB.Doctors.Practise.Blazor.pdb": "sha256-p0fBlbqfAowpMvygGpoWx+je2kZR8GmwofB0c1nmQXk="
+      "ENB.Doctors.Practise.Blazor.pdb": "sha256-6PNcUnhjbn+kwZVD398qbXvdhHKRdILzNN1rjRP+2LQ="
     },
     "runtime": {
       "dotnet.6.0.14.fl7frx6n4q.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",

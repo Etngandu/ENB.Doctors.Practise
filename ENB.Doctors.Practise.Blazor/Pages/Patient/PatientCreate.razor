@@ -13,7 +13,9 @@
 <div class="alert alert-primary" role="alert">
     <h2><strong>Create New Customer</strong></h2>
 </div>
-<EditForm Model="createAndEditPatient">
+<EditForm Model="createAndEditPatient" OnSubmit="@CreateAsync">
+    <FluentValidationValidator @ref="_fluentValidationValidator" Options="@(options => options.IncludeAllRuleSets())" />
+    @*<ValidationSummary />*@
 <div class="row">
     <div class="col-md-12">        
             <div class="row">
@@ -92,7 +94,7 @@
                         <div class="card-header" style="margin:10px 0px 10px 0px">
                             <label for="Date_Of_Birth" class="control-label">Date_Of_Birth</label>
                         </div>
-                        <input form="Date_Of_Birth" class="form-control" @bind="createAndEditPatient.Date_Of_Birth" />
+                        <InputDate form="Date_Of_Birth" class="form-control" @bind-Value="createAndEditPatient.Date_Of_Birth" />
                         <ValidationMessage For="@(() => createAndEditPatient.Date_Of_Birth)" />
                     </div>
                 </div>
@@ -136,7 +138,7 @@
             <div class="row" style="margin-top:10px">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="submit" value="Create" @onclick="@Create" class="btn btn-primary" />
+                        <input type="submit" value="Create" @onclick="@CreateAsync" class="btn btn-primary" />
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -156,17 +158,26 @@
 
     public CreateAndEditPatient createAndEditPatient { get; set; } = new CreateAndEditPatient();
 
+    private FluentValidationValidator? _fluentValidationValidator;
 
-    protected async Task Create()
+    protected async Task CreateAsync()
     {
-
-        await PatientRepo!.AddPatient(createAndEditPatient);
-        notificationService.Notify(NotificationSeverity.Info, summary: "Patient Added succefully",
-           detail: "", duration: 4000);
-        NavigationManager.NavigateTo("PatientList");
-
+        if (await _fluentValidationValidator!.ValidateAsync())
+        {
+            await PatientRepo!.AddPatient(createAndEditPatient);
+            notificationService.Notify(NotificationSeverity.Info, summary: "Patient Added succefully",
+               detail: "", duration: 4000);
+            NavigationManager.NavigateTo("PatientList");
+        }
     }
 
+    private async Task SubmitFormAsync()
+    {
+        if (await _fluentValidationValidator!.ValidateAsync())
+        {
+            Console.WriteLine("Form Submitted Successfully!");
+        }
+    }
 
     void Cancel()
     {

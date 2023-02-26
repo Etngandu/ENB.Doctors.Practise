@@ -14,7 +14,6 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7216/api/") });
 builder.Services.AddScoped<IPatientHttpRepository, PatientHttpRepository>();
 builder.Services.AddScoped<IStaffHttpRepository, StaffHttpRepository>();
-//builder.Services.AddScoped<IDataContextStorageContainer<OfficeLawyerContext>, DataContextFactory>();
 builder.Services.AddScoped<NotificationService>();
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

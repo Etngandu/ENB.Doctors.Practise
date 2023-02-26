@@ -68,7 +68,7 @@ namespace ENB.Doctors.Practise.Blazor.Models
                .NotEmpty().WithMessage("LastName  can't be empty");
 
                 RuleFor(x => x.Patient_mailAddress)
-               .NotEmpty().WithMessage("Mail")
+               .NotEmpty().WithMessage("Mail can't be empty")
                .EmailAddress();
 
                 RuleFor(x => x.Gender)
